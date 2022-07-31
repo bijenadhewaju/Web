@@ -3,11 +3,14 @@
 /**CSS for section**/
 *{
 	text-decoration: none;
+	background-color: #000;
+	color: white;
 }
 section {
 	width: 290px;
 	float: left;
 	padding: 5px 15px;
+	background-color: black;
 	}
 
 /** CSS for individual item**/
@@ -53,7 +56,7 @@ section {
 }
 .body ul li{
 	display:inline-block;
-	border:2px solid #000066;
+	border:2px solid #303031;
 	padding:1%;
 	margin:1%;
 	border-radius:15px;
@@ -87,10 +90,10 @@ nav a {
 	line-height: 100%;
 }
 nav a:hover {
-	color: #000;
+	color: rgb(124, 90, 146);
 }
 nav .current a {
-	background: #999;
+	background: rgb(12, 12, 12);
 	color: #fff;
 	border-radius: 5px;
 }
@@ -120,8 +123,8 @@ nav.right ul {
 	position: relative;
 	margin:auto;
 	
-	border: solid 1px #aaa;
-	background: #fff url(hamburger.png) no-repeat right;
+	border: solid 1px rgb(67, 64, 64);
+	background: rgb(84, 79, 79);
 	border-radius: 5px;
 	box-shadow: 0 1px 2px rgba(0,0,0,.3);
 	}
@@ -174,7 +177,7 @@ nav.right ul {
 header {
 	height: 100px;
 	padding: 5px 15px;
-	background-color: #bfdbfe;
+	background-color: #0a094c;
 }
 section {
 	width: auto;
@@ -194,7 +197,6 @@ footer {
     display: inline-block;
     text-align: center;
     font-size: 1vw;
-	background-color: #bfdbfe;
 }
 footer img{
 	width: 4vw;
@@ -273,7 +275,7 @@ footer img{
 
 /** CSS code for sec for body**/
 section {
-	background: #f8f8f8;
+	background: #0a094c;
 }
 
 header, section, article {
@@ -281,17 +283,12 @@ header, section, article {
 }
 
 #enclose, header, section, article, footer {
-	border: solid 1px #ccc;
-}
-
-/** CSS for hover of buton*/
-button:hover {
-	color: #aaa;
-  background: #900;
+	border: solid 1px #0a094c;
 }
 /* day-night mode*/
- .right-view{
+.right-view{
 	float:right ;
 	height: 80%;
 	width: auto;
 }
+
